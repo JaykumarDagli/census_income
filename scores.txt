@@ -1,0 +1,80 @@
+Logistic Regression
+
+Normal ROC: 58.19
+Normal accuracy: 79.32
+RMSE: 45.46
+
+Log + K Fold
+
+ROC:60.13 train
+ROC: 60.62 test
+
+Log + Hyper
+
+With C ROC: 60.22
+Best C, penalty, class wt ROC: 90.53
+
+Log + Hyper + Kfold
+train roc: 90.75
+test roc:91.44
+
+
+Dtree:
+
+Normal ROC: 74.73
+Acc: 81.26
+RMSE: 43.28
+
+Dtree + Kfold:
+
+ROC: 76.6 train
+ROC: 74.87 test
+
+Dtree + Hyper:
+
+With max nodes: 77.9
+best params: 75.79 
+
+Dtree + Hyper + Kfold
+train roc: 90.91
+test roc: 90.83
+
+
+Random Forest:
+
+Normal ROC: 75.13
+
+Random Forest + Hyper:
+
+best params: 75.74
+
+Random + KFold
+train: 89.29
+test: 89.60
+
+Random + KFold + Best
+train: 91.8 
+test: 92.13
+
+
+KNN:
+
+ROC: 61.81
+ACC: 77.01
+
+Knn + hyper 
+
+ROC: 63.16
+
+Knn + kfold
+
+Train: 66.48
+Test: 61.84
+
+Knn + hyper + kfold
+
+Train:  66.09
+Test: 61.84
+SVM:
+
+
